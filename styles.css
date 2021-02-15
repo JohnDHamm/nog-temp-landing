@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 90%;
+  max-width: 800px;
+}
+
+@font-face {
+  font-family: Condiment;
+  src: url("Condiment-Regular.ttf");
+}
+
+.link {
+  font-family: Condiment;
+}
+
+a {
+  font-size: 1.75rem;
+  padding-top: 2rem;
+}
